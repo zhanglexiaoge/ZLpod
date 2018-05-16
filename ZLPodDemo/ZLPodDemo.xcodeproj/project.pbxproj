@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656FD64520AC24C9008E6DEB /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656FD64420AC24C9008E6DEB /* MineViewController.m */; };
 		65F51A0C20AAA1210077E607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A0B20AAA1210077E607 /* AppDelegate.m */; };
 		65F51A0F20AAA1210077E607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F51A0E20AAA1210077E607 /* ViewController.m */; };
 		65F51A1220AAA1210077E607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F51A1020AAA1210077E607 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		656FD64320AC24C9008E6DEB /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		656FD64420AC24C9008E6DEB /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		65F51A0720AAA1210077E607 /* ZLPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F51A0A20AAA1210077E607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F51A0B20AAA1210077E607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		656FD64220AC2470008E6DEB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				656FD64320AC24C9008E6DEB /* MineViewController.h */,
+				656FD64420AC24C9008E6DEB /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
 		65F519FE20AAA1210077E607 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +151,7 @@
 		65F51A3C20AAA26C0077E607 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				656FD64220AC2470008E6DEB /* Mine */,
 				65F51A3D20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.h */,
 				65F51A3E20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m */,
 			);
@@ -280,6 +293,7 @@
 			files = (
 				65F51A3F20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m in Sources */,
 				65F51A0F20AAA1210077E607 /* ViewController.m in Sources */,
+				656FD64520AC24C9008E6DEB /* MineViewController.m in Sources */,
 				65F51A1A20AAA1210077E607 /* main.m in Sources */,
 				65F51A0C20AAA1210077E607 /* AppDelegate.m in Sources */,
 			);
