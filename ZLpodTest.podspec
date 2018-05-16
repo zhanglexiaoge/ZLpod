@@ -94,7 +94,9 @@ Pod::Spec.new do |s|
   s.source_files  = "ZLPodDemo/ZLPodDemo/Classes/*.{h,m}"
   s.exclude_files = ""
 
-  # s.public_header_files = ""
+  #s.public_header_files = "Classes/ZLpod.h"
+
+   
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

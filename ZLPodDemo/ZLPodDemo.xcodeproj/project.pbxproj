@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		656FD64320AC24C9008E6DEB /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		656FD64420AC24C9008E6DEB /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		656FD64620AC2E54008E6DEB /* ZLpod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLpod.h; sourceTree = "<group>"; };
 		65F51A0720AAA1210077E607 /* ZLPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F51A0A20AAA1210077E607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F51A0B20AAA1210077E607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 				656FD64220AC2470008E6DEB /* Mine */,
 				65F51A3D20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.h */,
 				65F51A3E20AAA26C0077E607 /* NSArray+NSArray_YUEJIE.m */,
+				656FD64620AC2E54008E6DEB /* ZLpod.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
